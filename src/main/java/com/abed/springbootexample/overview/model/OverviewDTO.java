@@ -1,4 +1,4 @@
-package com.abed.asyncrestcall.overview.model;
+package com.abed.springbootexample.overview.model;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.extern.jackson.Jacksonized;
 
 import java.io.Serial;
 import java.util.List;

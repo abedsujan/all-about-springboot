@@ -1,4 +1,4 @@
-package com.abed.asyncrestcall.overview.model;
+package com.abed.springbootexample.overview.model;
 
 import lombok.Builder;
 import lombok.Getter;

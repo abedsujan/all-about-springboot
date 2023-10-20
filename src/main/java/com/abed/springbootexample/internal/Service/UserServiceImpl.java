@@ -1,6 +1,6 @@
-package com.abed.asyncrestcall.internal.Service;
+package com.abed.springbootexample.internal.Service;
 
-import com.abed.asyncrestcall.internal.model.UserDTO;
+import com.abed.springbootexample.internal.model.UserDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

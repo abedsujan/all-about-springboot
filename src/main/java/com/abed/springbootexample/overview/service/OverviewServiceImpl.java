@@ -1,6 +1,6 @@
-package com.abed.asyncrestcall.overview.service;
+package com.abed.springbootexample.overview.service;
 
-import com.abed.asyncrestcall.overview.model.OverviewEnvelop;
+import com.abed.springbootexample.overview.model.OverviewEnvelop;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

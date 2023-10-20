@@ -1,10 +1,10 @@
-package com.abed.asyncrestcall;
+package com.abed.springbootexample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AsyncRestCallApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
