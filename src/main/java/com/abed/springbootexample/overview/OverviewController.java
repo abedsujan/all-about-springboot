@@ -1,17 +1,15 @@
-package com.abed.asyncrestcall.overview;
+package com.abed.springbootexample.overview;
 
-import com.abed.asyncrestcall.overview.model.OverviewEnvelop;
-import com.abed.asyncrestcall.overview.service.OverviewService;
+import com.abed.springbootexample.overview.model.OverviewEnvelop;
+import com.abed.springbootexample.overview.service.OverviewService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
 @RequestMapping("api/v1/dk/external")
-//@PreAuthorize("hasAuthority('admin_user')")
 @Tag(name="overview", description = "Account and Holdings overview of a client")
 public class OverviewController {
 

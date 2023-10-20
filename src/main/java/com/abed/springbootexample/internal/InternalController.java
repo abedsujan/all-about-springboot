@@ -1,9 +1,7 @@
-package com.abed.asyncrestcall.internal;
+package com.abed.springbootexample.internal;
 
-import com.abed.asyncrestcall.internal.Service.UserService;
-import com.abed.asyncrestcall.internal.model.UserDTO;
-import com.abed.asyncrestcall.overview.model.OverviewEnvelop;
-import com.abed.asyncrestcall.overview.service.OverviewService;
+import com.abed.springbootexample.internal.Service.UserService;
+import com.abed.springbootexample.internal.model.UserDTO;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

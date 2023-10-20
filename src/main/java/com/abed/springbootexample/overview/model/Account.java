@@ -1,11 +1,9 @@
-package com.abed.asyncrestcall.overview.model;
+package com.abed.springbootexample.overview.model;
 
 
-import com.fasterxml.jackson.annotation.JacksonInject;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.extern.jackson.Jacksonized;
 
 @Builder
 @Getter

@@ -1,13 +1,13 @@
-package com.abed.asyncrestcall;
+package com.abed.springbootexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AsyncRestCallApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AsyncRestCallApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

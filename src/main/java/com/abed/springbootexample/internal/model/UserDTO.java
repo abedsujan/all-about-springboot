@@ -1,16 +1,13 @@
-package com.abed.asyncrestcall.internal.model;
+package com.abed.springbootexample.internal.model;
 
 
-import com.abed.asyncrestcall.overview.model.Account;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import lombok.Builder;
 import lombok.Getter;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.List;
 
 @Builder
 @Getter
